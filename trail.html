@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-image">
+            <img src="hero.jpg" alt="Profile Picture" class="profile-image">
+        </div>
+        <div class="hero-content">
+            <h1>Deepika Karunakaran</h1>
+            <p>Software Developer</p>
+            <p>Turning Ideas into Reality through Code</p>
+            
+            <div class="social-links-hero">
+                <a href="https://github.com/yourusername" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://yourblog.blogspot.com" target="_blank">
+                    <i class="fab fa-blogger"></i>
+                    <span>Blog</span>
+                </a>
+                <a href="https://www.myprojectinc.com/home" target="_blank">
+                    <i class="fas fa-globe"></i>
+                    <span>Website</span>
+                </a>
+            </div>
+            <div class="download-cv" style="text-align: center; margin-top: 20px;">
+                <a href="path/to/Deepika_Karunakaran_CV.pdf" download>
+                    <button>Download CV</button>
+                </a>
+            </div>
+        </div>
+    </section>
+        
+   <section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+        <p><strong>My Student Life...</strong></p>
+        <p>Welcome to my portfolio! My name is <strong>Deepika Karunakaran</strong>, and I am currently pursuing a bachelor’s degree in <strong>BA ITEC</strong> at <strong>York University</strong>.</p>
+        <p>I have been living in <strong>Oshawa, Canada</strong> for more than two years.</p>
+        <p>I am passionate about <strong>programming</strong>.</p>
+        <p>Throughout my academic journey, I have maintained a strong focus on programming. I have actively sought out opportunities to expand my knowledge and skills through various coursework and research projects.</p>
+        <p>One area of particular interest to me is <strong>coding</strong>. I have dedicated myself to exploring this field in depth, delving into topics such as <strong>creating websites and working on different projects</strong>. This academic pursuit has not only deepened my understanding but has also ignited my curiosity to further explore its applications in real-world scenarios.</p>
+        <p>In addition to my academic achievements, I have gained practical experience through assignments and projects. For instance, I had the opportunity to <strong>intern at Motion Specialties</strong>, where I collaborated with a team to design a website. This experience allowed me to apply the knowledge gained in the classroom and provided valuable insights.</p>
+    </div>
+</section>
+
+    <section id="skills">
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5 fa-3x"></i>
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, jQuery</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cogs fa-3x"></i>
+                <h3>DevOps & Automation</h3>
+                <p>Jenkins, Docker, Kubernetes, Ansible</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code-branch fa-3x"></i>
+                <h3>Version Control</h3>
+                <p>Git, GitHub, Bitbucket</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-tools fa-3x"></i>
+                <h3>IT Support & System Administration</h3>
+                <p>Network Security, Hardware & Software Setup</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database fa-3x"></i>
+                <h3>Database Management</h3>
+                <p>MySQL</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-aws fa-3x"></i>
+                <h3>Cloud Computing</h3>
+                <p>AWS (EC2, S3, IAM, Lambda)</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-desktop fa-3x"></i>
+                <h3>Operating Systems</h3>
+                <p>Windows, Linux, Ubuntu, CentOS</p>
+            </div>
+        </div>
+    </section>
+
+   <section id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+        <!-- Example Project 1 -->
+        <div class="project-card">
+            <h3>Digital Clock</h3>
+            <p>A simple digital clock displaying real-time updates.</p>
+            <a href="https://deepigu.github.io/Digital-clock/" target="_blank">
+                <button>View Project</button>
+            </a>
+        </div>
+        <!-- Example Project 2 -->
+        <div class="project-card">
+            <h3>Valet Car Booking</h3>
+            <p>A valet car booking system with an interactive UI.</p>
+            <a href="https://deepigu.github.io/guruvalentcar/" target="_blank">
+                <button>View Project</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Deepika. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
